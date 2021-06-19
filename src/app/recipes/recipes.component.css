@@ -1,3 +1,14 @@
-.content{
-    padding-top: 50px;
+.content {
+  padding-top: 60px;
+}
+
+.detailsAndList {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .detailsAndList {
+    grid-template-columns: 1fr 1fr;
+  }
 }

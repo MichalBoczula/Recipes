@@ -1,1 +1,6 @@
-<p>shopping-list works!</p>
+<div class="shopping-list-container">
+  <div class="shopping-list-item" *ngFor ="let item of shoppingList">
+    <h1 class="shopping-item-name">{{item.name}}:</h1>
+    <h1 class="shopping-item-quantity">{{item.quantity}}g</h1>
+  </div>
+</div>

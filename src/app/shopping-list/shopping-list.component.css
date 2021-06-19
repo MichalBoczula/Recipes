@@ -1,0 +1,25 @@
+.shopping-list-container {
+  width: 90%;
+  margin: auto;
+}
+
+.shopping-list-item:first-of-type {
+  padding-top: 10px;
+}
+
+.shopping-list-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #525bea;
+}
+
+.shopping-item-name {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.shopping-item-quantity {
+  font-size: 20px;
+}
