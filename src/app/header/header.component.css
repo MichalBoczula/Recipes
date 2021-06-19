@@ -1,9 +1,10 @@
 .nav {
-  max-width: 100vw;
+  min-width: 100%;
   background-color: #525bea;
   display: flex;
   justify-content: center;
   height: 3rem;
+  position: fixed;
 }
 
 .brand {
