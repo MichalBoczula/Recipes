@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ShoppingItem } from './shopping-list-item.model';
 
 @Component({
@@ -7,6 +7,8 @@ import { ShoppingItem } from './shopping-list-item.model';
   styleUrls: ['./shopping-list-item.component.css']
 })
 export class ShoppingListItemComponent implements OnInit {
+  @Input() shoppintItem: ShoppingItem;
+
   constructor() { }
 
   ngOnInit(): void {

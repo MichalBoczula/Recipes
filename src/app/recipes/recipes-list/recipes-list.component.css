@@ -7,42 +7,6 @@
   grid-gap: 10px;
 }
 
-.recipe {
-  padding: 10px;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  transition: all 0.3s linear;
-}
-
-  .recipe:hover {
-    background-color: #afa6f9;
-  }
-
-.recipe-info {
-  display: grid;
-  flex-direction: row;
-  grid-template-rows: 0.1fr 1fr;
-  grid-gap: 10px;
-}
-
-.recipe-name {
-  font-size: 20px;
-}
-
-.recipe-desc {
-  font-size: 16px;
-}
-
-.recipe-image-container {
-  width: 100%;
-}
-
-.recipe-image {
-  width: 100%;
-  height: 150px;
-  object-fit: scale-down;
-}
-
 @media(min-width: 800px)
 {
   .recipe-container {

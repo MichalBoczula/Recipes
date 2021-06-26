@@ -1,13 +1,4 @@
 <div class="recipe-container">
-    <a href="#" *ngFor="let recipe of recipes">
-      <div class="recipe">
-        <div class="recipe-info">
-          <h4 class="recipe-name">{{recipe.name}}</h4>
-          <p class="recipe-desc">{{recipe.desc}}</p>
-        </div>
-        <div class="recipe-image-container">
-          <img class="recipe-image" [src]="recipe.image" />
-        </div>
-      </div>
-    </a>
+  <app-recipes-list-item *ngFor="let recipeEle of recipes" [recipe]="recipeEle">
+  </app-recipes-list-item>
 </div>

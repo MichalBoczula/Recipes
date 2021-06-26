@@ -1,1 +1,11 @@
-<p>recipes-list-item works!</p>
+<a href="#">
+  <div class="recipe">
+    <div class="recipe-info">
+      <h4 class="recipe-name">{{recipe.name}}</h4>
+      <p class="recipe-desc">{{recipe.desc}}</p>
+    </div>
+    <div class="recipe-image-container">
+      <img class="recipe-image" [src]="recipe.image" />
+    </div>
+  </div>
+</a>
